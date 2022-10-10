@@ -22,7 +22,6 @@ function App() {
       <Nav Reset={Reset}></Nav>
         <Routes>    
         <Route path="/" element={<About data={ds}/>}></Route>
-
         <Route path="/About" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/Form" element={<Form inputs={inputs} setInput={setInput} Reset={Reset}/>}></Route>
         <Route path="/Temp" exact element={<Temp/>}></Route>
