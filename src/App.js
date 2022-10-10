@@ -24,7 +24,7 @@ function App() {
         <Route path="/react-app/" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/react-app/About" element={<About data={ds}/>}></Route>
         <Route path="/react-app/Form" element={<Form inputs={inputs} setInput={setInput} Reset={Reset}/>}></Route>
-        <Route path="/react-app/Temp" exact element={<Temp/>}></Route>
+        <Route path="https://andrewjoemon.github.io/Temp" exact element={<Temp/>}></Route>
         <Route path="/react-app/Template" element={<Template inputs={inputs}/>}></Route>
         </Routes>
    

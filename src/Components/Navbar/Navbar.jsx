@@ -11,9 +11,9 @@ function Nav({Reset}){
        
         
         <header className="t46" >
-            <Link to="/react-app/" id="t47">Home</Link>
-            <Link to="/react-app/Temp" id="t47">Templates</Link>
-            <Link to="/react-app/About" id="t47">About</Link>
+            <Link to="/" id="t47">Home</Link>
+            <Link to="https://andrewjoemon.github.io/Temp" id="t47">Templates</Link>
+            <Link to="/About" id="t47">About</Link>
             
             
         </header>
